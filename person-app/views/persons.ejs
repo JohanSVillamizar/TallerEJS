@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personas</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4">Personas</h1>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Edad</th>
+          <th>Fecha de Nacimiento</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% persons.forEach(person => { %>
+          <tr>
+            <td><%= person.name %></td>
+            <td><%= moment().diff(moment(person.birthDate, 'YYYY-MM-DD'), 'years') %> años</td>
+            <td><%= moment(person.birthDate, 'YYYY-MM-DD').format('DD/MM/YYYY') %></td>
+          </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

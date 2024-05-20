@@ -1,0 +1,17 @@
+[
+    {
+        "product_name": "Product A",
+        "product_price": 10,
+        "product_quantity": 5
+    },
+    {
+        "product_name": "Product B",
+        "product_price": 20,
+        "product_quantity": 3
+    },
+    {
+        "product_name": "Product C",
+        "product_price": 15,
+        "product_quantity": 10
+    }
+]

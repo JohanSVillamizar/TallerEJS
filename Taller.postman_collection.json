@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "eb96d608-9d4a-40dc-9fe4-46b64ee5e69d",
+		"name": "Taller",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "33598203"
+	},
+	"item": [
+		{
+			"name": "1",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/products?min_price=14",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"products"
+							],
+							"query": [
+								{
+									"key": "min_price",
+									"value": "14"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "2",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

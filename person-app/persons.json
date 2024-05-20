@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Maria Posada",
+        "birthDate": "1990-01-01"
+    },
+    {
+        "name": "Johan Smith",
+        "birthDate": "1995-08-11"
+    },
+    {
+        "name": "Valentina Perez",
+        "birthDate": "2010-08-23"
+    },
+    {
+        "name": "Juan Rodriguez",
+        "birthDate": "2012-03-15"
+    },
+    {
+        "name": "Alejandra Garcia",
+        "birthDate": "2000-08-23"
+    }
+]
